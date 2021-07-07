@@ -16,7 +16,7 @@ const Forgot = () => {
         <input id="passwordagain" type="password" className="validate" />
         <label htmlFor="passwordagain">confirm password/पासवर्ड पुन: लिखिए</label>
       </div>
-      <a  >forgot password? / पासवर्ड बदलने का अनुरोध </a>
+     
       <p></p>
       <button class="btn waves-effect waves-light " type="submit" name="action">Submit/दरज करे<i class="material-icons right">send</i>
   </button>

@@ -13,15 +13,15 @@ function App() {
     {/* <div className="container login">
           <Login></Login>
     </div> */}
-    {/* <div>
+    <div>
       <MainPage></MainPage>
-    </div> */}
+    </div>
     {/* <div className="container ">
           <Signin></Signin>
     </div> */}
-    <div className="container ">
+    {/* <div className="container ">
           <Forgot></Forgot>
-    </div>
+    </div> */}
     </div>
   );
 }
