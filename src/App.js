@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from "./components/Login";
 
+import './styles/App.css'
+import ParticlesBg from 'particles-bg'
+import MainPage from "./components/MainPage";
+import Signin from "./components/Signin";
+import Forgot from "./components/Forgot";
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ParticlesBg type="random" bg={true} />
+    {/* <div className="container login">
+          <Login></Login>
+    </div> */}
+    {/* <div>
+      <MainPage></MainPage>
+    </div> */}
+    {/* <div className="container ">
+          <Signin></Signin>
+    </div> */}
+    <div className="container ">
+          <Forgot></Forgot>
+    </div>
     </div>
   );
 }
